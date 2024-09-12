@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Payment Success</title>
+</head>
+<body>
+<h1>Payment Processed Successfully!</h1>
+<p>Claim ID: <span th:text="${payment.claimId}"></span></p>
+<p>Payment Amount: <span th:text="${payment.paymentAmount}"></span></p>
+<p>Payment Method: <span th:text="${payment.paymentMethod}"></span></p>
+<p>Payment Date: <span th:text="${payment.paymentDate}"></span></p>
+</body>
+</html>
